@@ -244,6 +244,12 @@ footer p{
     display: flex;
 }
 
+.profile-container-details p{
+    padding: 16px 14px;
+}
+
+
+
 .proyects-container{
     padding: 0 50px 40px;
 }
@@ -255,8 +261,12 @@ footer p{
 }
 .proyects-main-container{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr; 
+   grid-template-columns: 1fr 1fr 1fr;
+   /*grid-template-columns: repeat(auto-fill, 266px);*/
+   place-content: center;
 }
+
+
 .proyect-container{
     padding: 0 5px;
 }

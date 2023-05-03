@@ -19,4 +19,42 @@
     .blogs-post-container .post-container {
         display: contents;
     }
+
+    .profileMain-container{
+        padding: 35px 40px;
+        background-color: #e6e9ed;
+        margin-bottom: 30px;
+    
+    }
+    .profileMain-container .profile-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profileMain-container img{
+        width: 380px;
+        margin-right: 0;
+    }
+    
+    .profile-container-details{
+        padding: 5px 20px;
+    }
+
+    .profile-container-details p{
+        padding: 5px;
+    }
+
+    .proyects-main-container{
+        grid-template-columns: 400px ;
+     }
+
+    .proyects-container img{
+        width: 300px;
+    }
+    
+    .contac-main-container {
+        grid-template-columns: 1fr;
+    }
+    
+   
 }
